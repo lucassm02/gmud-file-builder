@@ -6,13 +6,17 @@
   "author": "Lucas Santos",
   "license": "MIT",
   "scripts": {
-    "build": "yarn tsc",
-    "postbuild": "cp appsscript.json ./dist",
+    "dev": "npx tsx src/index.ts",
+    "prepush": "cp appsscript.json ./src",
     "push": "npx @google/clasp push",
-    "prepush": "yarn build"
+    "postpush": "rm ./src/appsscript.json"
   },
   "devDependencies": {
+    "@types/date-fns": "^2.6.0",
     "@types/google-apps-script": "^1.0.82",
     "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "date-fns": "^3.5.0"
   }
 }

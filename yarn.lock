@@ -2,10 +2,22 @@
 # yarn lockfile v1
 
 
+"@types/date-fns@^2.6.0":
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/@types/date-fns/-/date-fns-2.6.0.tgz#b062ca46562002909be0c63a6467ed173136acc1"
+  integrity sha512-9DSw2ZRzV0Tmpa6PHHJbMcZn79HHus+BBBohcOaDzkK/G3zMjDUDYjJIWBFLbkh+1+/IOS0A59BpQfdr37hASg==
+  dependencies:
+    date-fns "*"
+
 "@types/google-apps-script@^1.0.82":
   version "1.0.82"
   resolved "https://registry.yarnpkg.com/@types/google-apps-script/-/google-apps-script-1.0.82.tgz#006467e1a9976df8b187bf06c20d3b488ad3f6dd"
   integrity sha512-umYZj3h057s/sF3aGo0JDiuXLVkqj2rfu6D+OzHlYjKV1fGCjL62L1tndSxe4h7oiHEEgdubFkOLZ7O6xB3L9g==
+
+date-fns@*, date-fns@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-3.5.0.tgz#d4f89de9b347ce9b14e4d05701f5d150a6591547"
+  integrity sha512-a+DwyXn7NOfdJireCzAA0B9p7jIXEu/Q9JKCyMYvH6+0vPUNbQceA0neXrdfJ/xzl3mhOh5vibQQ3936Tssm6A==
 
 typescript@^5.4.2:
   version "5.4.2"
