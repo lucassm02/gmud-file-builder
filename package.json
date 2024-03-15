@@ -1,0 +1,18 @@
+{
+  "name": "gmud-file-builder",
+  "version": "0.0.1",
+  "description": "Script to make a Google Docs file from a template",
+  "main": "src/index.ts",
+  "author": "Lucas Santos",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn tsc",
+    "postbuild": "cp appsscript.json ./dist",
+    "push": "npx @google/clasp push",
+    "prepush": "yarn build"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.82",
+    "typescript": "^5.4.2"
+  }
+}
