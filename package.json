@@ -6,7 +6,6 @@
   "author": "Lucas Santos",
   "license": "MIT",
   "scripts": {
-    "dev": "npx tsx src/index.ts",
     "prepush": "cp appsscript.json ./src",
     "push": "npx @google/clasp push",
     "postpush": "rm ./src/appsscript.json"
