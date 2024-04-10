@@ -4,12 +4,6 @@ function setText(
   text: string
 ) {
   if (!target) return;
-  if (target.child) {
-    const table = tables[target.index].getCell(target.row, target.col);
-    const cell = getCell(table, target.child);
-    cell.setText(text);
-    return;
-  }
 
   if (Array.isArray(target)) {
     for (const itemOfTarget of target) {
@@ -19,5 +13,6 @@ function setText(
     return;
   }
 
-  tables[target.index].getCell(target.row, target.col).setText(text);
+  const cell = getCellByPath(tables, target);
+  cell.editAsText().setText(text);
 }
