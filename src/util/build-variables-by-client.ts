@@ -8,7 +8,7 @@ type DatoraPayload = {
   rollbackTime: number;
   requester: string;
   systems: string;
-  executor: string;
+  executorName: string;
   description: string;
 };
 
@@ -21,7 +21,10 @@ type SurfPayload = {
   testTime: number;
   rollbackTime: number;
   systems: string;
-  executor: string;
+  executorName: string;
+  executorPhone: string;
+  executorEmail: string;
+  executorPosition: string;
   impact: string;
   title: string;
   description: string;

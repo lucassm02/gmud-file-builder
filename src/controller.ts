@@ -41,7 +41,8 @@ const Controller = {
     }
 
     const response = {
-      message: `Document successfully generated, access link: ${newFile.getUrl()}`,
+      message: `Document successfully generated!`,
+      payload: { link: newFile.getUrl() },
     };
 
     return ContentService.createTextOutput(

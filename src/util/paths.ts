@@ -30,7 +30,7 @@ const paths = {
       { index: 24, row: 1, col: 1 },
       { index: 25, row: 3, col: 0 },
     ],
-    executor: [
+    executorName: [
       { index: 23, row: 1, col: 2 },
       { index: 23, row: 2, col: 2 },
       { index: 23, row: 3, col: 2 },
@@ -158,7 +158,7 @@ const paths = {
         },
       },
     ],
-    executorsPosition: [
+    executorPosition: [
       {
         index: 14,
         child: {
