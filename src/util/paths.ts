@@ -30,7 +30,10 @@ const paths = {
       { index: 24, row: 1, col: 1 },
       { index: 25, row: 3, col: 0 },
     ],
+    executorEmail: { index: 21, row: 3, col: 2 },
+    executorPosition: { index: 21, row: 3, col: 1 },
     executorName: [
+      { index: 21, row: 3, col: 0 },
       { index: 23, row: 1, col: 2 },
       { index: 23, row: 2, col: 2 },
       { index: 23, row: 3, col: 2 },
