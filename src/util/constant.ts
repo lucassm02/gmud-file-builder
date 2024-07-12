@@ -1,6 +1,6 @@
 const GOOGLE_DOCS = {
   TEMPLATE_ID: {
-    DATORA: '1DcoqzP_fFwA6QJ1jM9bq-Bojd2pfwMhLcNeUB6tJTyo',
-    SURF: '1-rivYZ8BuC-gqE2vF3AfgajBTmmR236gaPxPyQ7HYFc',
+    DATORA: '1E7Xfvugpoq6JlhYq8uNqEHQOgx5lKGGd86i1nuopsBU',
+    SURF: '16OlBUqM2ddIOOA3sbjuweTV5LmBCN8MOH1Hg8WrI-dA',
   },
 };
